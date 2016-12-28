@@ -1,9 +1,9 @@
-(kicad_pcb (version 20160815) (host pcbnew "(2016-12-22 revision d365dc590)-master")
+(kicad_pcb (version 20160815) (host pcbnew "(2016-11-05 revision 3af551c)-master")
 
   (general
     (links 74)
     (no_connects 0)
-    (area 92.405999 91.339199 192.226401 134.8357)
+    (area 92.405999 91.339199 192.226401 132.333201)
     (thickness 1.6)
     (drawings 29)
     (tracks 391)
@@ -289,7 +289,7 @@
       (net 1 +5V))
     (pad 2 smd rect (at 1 0 180) (size 1 1.25) (layers F.Cu F.Mask)
       (net 2 GND))
-    (model Capacitors_SMD/C_0805.wrl
+    (model Capacitors_SMD.3dshapes/C_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -318,7 +318,7 @@
       (net 1 +5V))
     (pad 2 smd rect (at 1 0 180) (size 1 1.25) (layers F.Cu F.Mask)
       (net 2 GND))
-    (model Capacitors_SMD/C_0805.wrl
+    (model Capacitors_SMD.3dshapes/C_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -347,7 +347,7 @@
       (net 1 +5V))
     (pad 2 smd rect (at 1 0 270) (size 1 1.25) (layers F.Cu F.Mask)
       (net 2 GND))
-    (model Capacitors_SMD/C_0805.wrl
+    (model Capacitors_SMD.3dshapes/C_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -429,7 +429,7 @@
       (net 41 /PA14))
     (pad 28 thru_hole circle (at -16.51 -7.62 180) (size 1.397 1.397) (drill 0.8128) (layers *.Cu *.Mask F.SilkS)
       (net 1 +5V))
-    (model Sockets_DIP/DIP-28__600.wrl
+    (model Sockets_DIP.3dshapes/DIP-28__600.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -511,7 +511,7 @@
       (net 2 GND))
     (pad 28 thru_hole circle (at -16.51 -7.62 180) (size 1.397 1.397) (drill 0.8128) (layers *.Cu *.Mask F.SilkS)
       (net 1 +5V))
-    (model Sockets_DIP/DIP-28__600.wrl
+    (model Sockets_DIP.3dshapes/DIP-28__600.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -552,7 +552,7 @@
       (net 69 /LS2))
     (pad 8 thru_hole circle (at -3.81 -3.81 270) (size 1.397 1.397) (drill 0.8128) (layers *.Cu *.Mask F.SilkS)
       (net 1 +5V))
-    (model Sockets_DIP/DIP-8__300.wrl
+    (model Sockets_DIP.3dshapes/DIP-8__300.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -761,7 +761,7 @@
       (net 62 /CA10))
     (pad 2 smd rect (at 0.81 0) (size 1.38 1.25) (layers F.Cu F.Mask)
       (net 23 /VA10))
-    (model Capacitors_SMD/C_0805.wrl
+    (model Resistors_SMD.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
